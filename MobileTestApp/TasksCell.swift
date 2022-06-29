@@ -8,6 +8,9 @@
 import UIKit
 
 class TasksCell: UITableViewCell {
+    
+    @IBOutlet weak var dateLabel : UILabel!
+    @IBOutlet weak var tasksLabel : UILabel!
 
     override func awakeFromNib() {
         super.awakeFromNib()
